@@ -26,34 +26,35 @@
   /* color: #fff; */
 }
 body {
-  background-color: black;
+  background-color: white;
 }
 .spotlight-2 {
-  width: 65%;
+  width: 100%;
+  height: auto;
   /* height: 400px; */
   /* padding: 2em 0; */
-  margin: 25em;
+  /* margin: 25em; */
   /* padding: 20em 0 10em 0; */
   background-color: #f3f4f6;
   font-family: "Lato", sans-serif;
   display: flex;
   align-items: center;
-  border: 1px solid var(--black);
+  /* border: 1px solid var(--black); */
 }
 .spotlight-2 div:first-child {
   width: 100%;
   padding: 0 5%;
 }
 .spotlight-2 div:nth-child(2) {
-  width: 60%;
-  height: 350px;
+  width: 43%;
+  height: 450px;
   display: flex;
   overflow: hidden;
 }
 .spotlight-2 div img {
   object-fit: cover;
   width: 100%;
-  height: auto;
+  /* height: auto; */
 }
 .spotlight-2 h1 {
   font-size: 2.5em;
@@ -63,8 +64,8 @@ body {
 }
 .spotlight-2 div p {
   font-weight: lighter;
-  font-size: 1.1em;
-  line-height: 1.7em;
+  font-size: 1.5em;
+  line-height: 1.8em;
   color: hsl(0, 0%, 50%);
   margin-top: 0.5em;
   padding-bottom: 1.5em;
@@ -80,17 +81,18 @@ body {
 .spotlight-2 a {
   border: 1px solid #a1a1a1;
   border-radius: 2em;
-  padding: 1.4em 2.8em;
+  padding: 1.3em 3em;
   color: var(--black);
   text-decoration: underline transparent;
-  font-size: 0.8em;
+  font-size: 1.1em;
+  font-weight: bold;
 }
 .spotlight-2 #details {
-  padding: .2em;
+  padding: 0.2em;
   border: none;
   text-decoration: underline;
   font-size: 1em;
-  }
+}
 .spotlight-2 code {
   background-color: rgb(230, 229, 229);
   padding: 0.4em;
