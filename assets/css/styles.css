@@ -59,7 +59,7 @@ body {
   font-size: 6.5rem;
   color: #e03636;
   font-weight: 600;
-  letter-spacing: -1px;
+  letter-spacing: -4px;
 }
 .banner .text h3 {
   font-weight: 300;
@@ -73,8 +73,9 @@ a {
   font-size: 1.9rem;
 }
 .banner .text p code {
-  display: inline-flex;
+  display: inline-block;
   padding: 0 0.5em;
+  background-color: #acabab;
 }
 
 .banner .imgBanner {
