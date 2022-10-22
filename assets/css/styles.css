@@ -74,8 +74,10 @@ a {
 }
 .banner .text p code {
   display: inline-block;
+ 
+  border-radius: 3px;
   padding: 0 0.5em;
-  background-color: #acabab;
+  background-color: #e6e1e1;
 }
 
 .banner .imgBanner {
@@ -123,8 +125,6 @@ a {
 .gallery .images {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  /*   align-content: stretch;
- */
   margin: 2em 0;
 }
 .gallery .images img {
