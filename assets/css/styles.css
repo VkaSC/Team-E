@@ -72,12 +72,17 @@ a {
   font-weight: 200;
   font-size: 1.9rem;
 }
-.banner .text p code {
+/* .banner .text p code {
   display: inline-block;
  
   border-radius: 3px;
   padding: 0 0.5em;
   background-color: #e6e1e1;
+} */
+.banner code {
+  background-color: rgba(228, 227, 227, 0.937);
+  padding: 0.2em;
+  border-radius: 0.2em;
 }
 
 .banner .imgBanner {
