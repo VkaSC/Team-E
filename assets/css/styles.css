@@ -1,0 +1,252 @@
+:root {
+  font-size: 1.1rem;
+  font-family: "Open Sans", sans-serif;
+  --blue: #0d6efd;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #d63384;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #198754;
+  --teal: #20c997;
+  --cyan: #0dcaf0;
+  --black: #000;
+  box-sizing: border-box;
+}
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: inherit;
+}
+
+section {
+  border-bottom: 2px solid rgb(175, 170, 170);
+}
+/* -------------------SPOTLIGHT 3--------------------------------- */
+
+.spotlight-3 {
+  display: flex;
+  align-items: center;
+}
+
+.spotlight-3 .flota-izquierda {
+  width: 40%;
+  height: 550px;
+}
+.spotlight-3 .flota-derecha {
+  width: 70%;
+  padding-left: 3em;
+  padding-right: 4em;
+  height: 100%;
+  margin-left: 2%;
+  margin-right: 3.2%;
+}
+.spotlight-3 img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.spotlight-3 h1 {
+  padding-bottom: 1em;
+  font-weight: lighter;
+  font-size: 50px;
+}
+.spotlight-3 p {
+  line-height: 2em;
+  text-align: left;
+  padding-bottom: 1.8em;
+}
+
+.spotlight-3 button {
+  border-radius: 2rem;
+  padding: 1.2em 2.6em;
+  border: rgb(202, 200, 200) solid 2px;
+  background-color: white;
+  color: rgb(67, 65, 65);
+}
+.spotlight-3 button:hover {
+  color: var(--cyan);
+  border: solid 2px var(--cyan);
+}
+.spotlight-3 span {
+  background-color: rgb(239, 237, 237);
+  padding: 0.2em;
+  border-radius: 0.2rem;
+}
+/* -------------------ITEMS------------------------------------- */
+.Items {
+  width: 70%;
+  /* border: solid 10px black; */
+  margin-left: 15%;
+  /* margin-right: 10%; */
+}
+.Items span {
+  background-color: rgb(239, 237, 237);
+  padding: 0.2em;
+  border-radius: 0.2rem;
+}
+.Items h1 {
+  padding-top: 0.5em;
+  font-weight: lighter;
+  font-size: 40px;
+  text-align: center;
+}
+#parrafo-inicial {
+  line-height: 40px;
+  text-align: center;
+  padding: 1em 0.2em;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  padding: 3em;
+}
+
+.Items div > div {
+  text-align: center;
+  padding: 5%;
+  height: 400px;
+}
+.Items div > div > p {
+  line-height: 33px;
+  padding: 5%;
+}
+
+.Items i {
+  border-radius: 100%;
+  border: rgb(187, 184, 184) solid 1px;
+  padding: 6%;
+  margin: 8%;
+  font-size: 1.5em;
+}
+
+.Items .one,
+.Items .four,
+.Items .seven,
+.Items .two,
+.Items .five,
+.Items .eight {
+  border-right: solid 0.5px rgb(181, 178, 178);
+  border-bottom: solid 0.5px rgb(181, 178, 178);
+}
+.Items .ten,
+.Items .eleven {
+  border-right: solid 0.5px rgb(181, 178, 178);
+}
+.Items .three,
+.Items .six,
+.Items .nine {
+  border-bottom: solid 0.5px rgb(181, 178, 178);
+}
+.Items h2 {
+  font-weight: lighter;
+  text-align: center;
+}
+.Items div > div.contendor {
+  padding-top: 0em;
+}
+/* -------------------ICONS-------------------------------- */
+
+.Icons {
+  padding-left: 20em;
+  padding-top: 2.5em;
+  display: flex;
+}
+
+.Icons h2 {
+  font-weight: lighter;
+  padding-right: 10em;
+}
+
+.Icons > div {
+  font-weight: lighter;
+  padding-left: 10em;
+}
+.Icons h3 {
+  font-weight: lighter;
+  padding-bottom: 1.5em;
+}
+
+.Icons i {
+  border: solid rgb(219, 216, 216) 2px;
+  border-radius: 100%;
+  padding: 0.5em;
+  margin-right: 1em;
+  font-size: 1.3em;
+  margin-bottom: 2em;
+}
+.Icons #ic {
+  border: hidden;
+  font-size: 1.3em;
+  padding: 0;
+}
+/* -------------------TABLE-------------------------------- */
+.tabla {
+  display: flex;
+}
+.tabla > h2 {
+  padding-top: 2em;
+  padding-left: 13em;
+  font-weight: lighter;
+}
+.tabla > div {
+  padding-left: 20em;
+  padding-top: 2em;
+}
+.default {
+  font-weight: lighter;
+  font-size: medium;
+  padding-bottom: 1em;
+}
+
+th {
+  font-size: small;
+  border-bottom: rgb(182, 181, 181) solid 3px;
+  padding-bottom: 1em;
+  text-align: left;
+  padding-left: 1em;
+}
+
+td {
+  padding: 0.8em;
+}
+
+tr td:nth-child(3) {
+  padding-right: 3em;
+}
+tr td:nth-child(2) {
+  padding-right: 14em;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(237, 234, 234);
+}
+tr:nth-child(odd) {
+  background-color: rgb(255, 255, 255);
+}
+tr td:first-child {
+  padding-right: 4em;
+}
+.bordesuperiorgrueso{
+  border-top: rgb(182, 181, 181) solid 3px;
+}
+
+.tabla2 td {
+  border: rgb(182, 181, 181) solid 0.5px;
+}
+.tabla2 th {
+  font-size: small;
+  border-bottom: hidden;
+  padding-bottom: 1em;
+  text-align: left;
+  padding-left: 1em;
+}
+.tabla2 .sinborde {
+  border: hidden;
+}
