@@ -98,3 +98,91 @@ body {
   padding: 0.4em;
   border-radius: 0.5em;
 }
+/*Addtional-Elements*/
+.main {
+  margin: 0 25em;
+  display: flex;
+  flex-direction: column;
+}
+hr {
+  height: 1px;
+  background-color: #d3d2d2;
+}
+.main .Additional-Elements {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-weight: lighter;
+}
+.main .content {
+  text-align: center;
+}
+/* .title {
+  font-family: "Open sans", sans-serif;
+  font-size: 3rem;
+  font-weight: lighter;
+  text-align: center;
+  padding-bottom: 40px;
+  color: rgb(74, 74, 74);
+} */
+/* p {
+  text-align: center;
+  font-size: 1.4rem;
+  padding-bottom: 100px;
+} */
+.main .Additional-Elements .texto {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: row;
+  gap: 10em;
+  /* justify-content: space-evenly; */
+  margin: 50px 0;
+  /* border-bottom: 2px solid #d3d2d2;
+  padding-bottom: 40px; */
+}
+/* div.text > h3 {
+  font-size: 1.8em;
+  font-weight: lighter;
+  padding-right: 8em;
+  margin-right: 2em;
+} */
+/* div.p > p {
+  font-size: 1.4rem;
+  line-height: 1.7em;
+  font-family: "Lato", sans-serif;
+  color: var(--black);
+  padding-right: 2.5em;
+  padding-bottom: 10px;
+} */
+/* div.p > p > .code {
+  background-color: rgb(244, 244, 244);
+  border-radius: 5px;
+  padding: 0.3em;
+  font-weight: lighter;
+}
+div.p > p > .underline {
+  text-decoration: underline 2px rgb(74, 74, 74);
+}
+div.p > p > .bold {
+  font-weight: 800;
+  color: var(--black);
+}
+div.p > p > #link {
+  color: #000;
+} */
+
+/*Headings*/
+
+.main .Headings {
+  display: flex;
+  flex-direction: column;
+}
+.main div.title {
+  width: 100%;
+  display: inline-flex;
+  gap: 10px;
+  margin: 50px 0;
+  padding-bottom: 40px;
+}
