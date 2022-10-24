@@ -1,6 +1,6 @@
 :root {
   font-size: 0.785rem;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Source Sans Pro", sans-serif,;
   --blue: #0d6efd;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -35,6 +35,11 @@ body {
   width: 100%;
   height: 100vh;
   font-size: 3rem;
+}
+code {
+  background-color: rgba(228, 227, 227, 0.937);
+  padding: 0.2em;
+  border-radius: 0.2em;
 }
 .banner .textContainer {
   width: 80%;
@@ -72,19 +77,6 @@ a {
   font-weight: 200;
   font-size: 1.9rem;
 }
-/* .banner .text p code {
-  display: inline-block;
- 
-  border-radius: 3px;
-  padding: 0 0.5em;
-  background-color: #e6e1e1;
-} */
-.banner code {
-  background-color: rgba(228, 227, 227, 0.937);
-  padding: 0.2em;
-  border-radius: 0.2em;
-}
-
 .banner .imgBanner {
   width: 50%;
 }
@@ -111,7 +103,7 @@ a {
 }
 
 .gallery .text {
-  width: 80%;
+  width: 100%;
   display: flex;
   align-content: center;
   flex-direction: column;
@@ -119,23 +111,43 @@ a {
   /*  margin-top: 2em; */
 }
 .gallery .text h1 {
-  font-size: 5em;
+  font-size: 3em;
   font-weight: lighter;
+  font-size: 14mm;
+  align-self: center;
 }
 .gallery .text p {
-  font-size: 1.5rem;
-  margin: 0 10%;
+  font-weight: lighter;
+  font-size: 2rem;
+  line-height: 1.8em;
+  margin: 0.2em 10em 0 ;
 }
 
 .gallery .images {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  margin: 2em 0;
+  margin: 5em 0;
 }
 .gallery .images img {
   width: 100%;
   height: auto;
   object-fit: contain;
+}
+.box {
+  width: 100%;
+  display: inline-flex;
+}
+.box h2 {
+  font-size: 3em;
+  font-weight: lighter;
+  font-size: 14mm;
+  align-self: center;
+}
+.box .box-text {
+  font-weight: lighter;
+  font-size: 2rem;
+  line-height: 1.8em;
+  margin: 0.2em 10em 0 ;
 }
 
 footer {
