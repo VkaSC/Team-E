@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -12,6 +11,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
     href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Rubik&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=IBM+Plex+Mono:wght@200&display=swap"
     rel="stylesheet"
   />
   <body>
@@ -46,9 +51,9 @@
             This is <b>bold</b> and this is <strong>strong</strong>. This is
             <i>italic</i> and this is <em>enphasized</em>. This
             is<sup>superscript</sup>text and this is <sub>subscript</sub>text.
-            This is <u>underliner</u> and this is code:<code
-              >for (;;) { ... }</code
-            >. Finally, this is <a href="#">link</a>.
+            This is <u>underliner</u> and this is code:
+            <code>for (;;) { ... }</code>. Finally, this is
+            <a href="#">link</a>.
           </p>
         </div>
         <hr />
@@ -72,8 +77,8 @@
               <br />
             </div>
             <hr />
-            <div>
-              <h1>Heading with a Subtitle</h1>
+            <div class="one">
+              <h1 class="title-1">Heading with a Subtitle</h1>
               <em>
                 ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
                 eligendi?</em
@@ -88,8 +93,8 @@
               </p>
             </div>
             <hr />
-            <div>
-              <h2>Heading with a Subtitle</h2>
+            <div class="two">
+              <h2 class="title-2">Heading with a Subtitle</h2>
               <em
                 >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia,
                 ab.</em
@@ -104,7 +109,7 @@
               </p>
             </div>
             <hr />
-            <div>
+            <div class="tree">
               <h3>Heading with a Subtitle</h3>
               <em
                 >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia,
@@ -126,31 +131,58 @@
       <section class="Formulario">
         <h3 class="Form">Form</h3>
         <br />
-        <form action="login.php" method="POST">
-          <label for="name">Name</label><br /><input
-            type="text"
-            id="name"
-            name="name"
-            value=""
-          /><br />
-          <label for="email">Email</label><br />
-          <input type="text" id="email" name="email" value="" /><br />
-          <label for="department">Department</label><br />
-          <select name="department" id="department">
+        <div class="form-container">
+          <form action="login.php" method="POST">
+            <div class="nameEmil">
+              <label for="name">Name</label><br /><input
+                type="text"
+                id="name"
+                name="name"
+                placeholder=""
+              /><br />
+              <label for="email">Email</label><br />
+              <input type="text" id="email" name="email" placeholder="" />
+            </div>
             <br />
-            <option value="-Category-">-Category-</option></select
-          ><br /><br />
-          <input name="priority" type="radio" value="" checked />Low Priority
-          <input name="priority" type="radio" value="" />Normal Priority
-          <input name="priority" type="radio" value="" />High Priority
-          <br /><br />
-          <label for="message">Message</label><br /><br />
-          <textarea name="" id="" cols="80" rows="15"></textarea><br />
-          <input name="" type="checkbox" value="" />Email me a copy of this
-          message <input name="" type="checkbox" checked value="" />I am a human
-          and not a robot <br />
-          <a href="">Send message</a>
-        </form>
+            <div class="department">
+              <label for="department">Department</label><br />
+              <select name="department" id="department">
+                <br />
+                <option value="category">-Category-</option>
+                <option value="administration">Administration</option>
+                <option value="human-resources">Human resources</option>
+              </select>
+            </div>
+            <br /><br />
+            <div class="priority">
+              <div class="low">
+                <input type="radio" value="lowPriority" name="priority" />
+                <label for="lowPriority">Low priority</label>
+              </div>
+              <div class="normal">
+                <input type="radio" value="normalPriority" name="priority" />
+                <label for="normalPriority">Normal priority</label>
+              </div>
+              <div class="high">
+                <input type="radio" value="highPriority" name="priority" />
+                <label for="highPriority">High Priority</label>
+              </div>
+            </div>
+            <label for="message">Message</label><br /><br />
+            <textarea name="message" id="" cols="95" rows="10"></textarea>
+            <div class="sendEmail">
+              <div class="copy">
+                <input type="checkbox" value="" />
+                <label for=""></label>
+              </div>
+              <div class="robot">
+                <input type="checkbox" value="" />
+                <label for=""></label>
+              </div>
+            </div>
+            <input type="submit" value="SEND MESSAGE" />
+          </form>
+        </div>
       </section>
     </section>
   </body>
