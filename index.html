@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -39,9 +38,25 @@
     </div>
     <div class="imgBanner"><img src="./img/banner.jpg" alt="banner" /></div>
   </section>
+  <section class="spotlight1">
+    <div><img src="img/spotlight01.jpg" alt="" /></div>
+    <div>
+      <h1 class="h1">Spotlight</h1>
+      <br />
+      <p>
+        This is a <strong>Spotlight</strong> element, and it's generally used - as the name suggests - to highlight a
+        particular feature, <br>
+        subject, or pretty much anything. You can customise its appearance with a choice of modifiers, as well as <br>
+        assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a
+          href="#">details</a>).
+      </p>
+      <br>
+      <button>LEARN MORE</button>
+    </div>
+  </section>
   <section class="gallery">
     <div class="text">
-      <h1>Gallery</h1>
+      <h1 class="h1">Gallery</h1>
       <p>
         This is <strong>Gallery</strong> component. It can behave as a lightbox(when given the <code>lightbox</code>
         class), and you can customise its appearence with a number of modifiers, as well as assing it an optional
@@ -60,10 +75,91 @@
         <img class="slider-item zoom" src="./img/gallery/fulls/08.jpg" alt="thumbs01">
       </div>
     </div>
-    
   </section>
   <section class="main">
     <section class="elements">
+      <section class="unorderedList">
+        <h3 class="h3">Unordered Lista</h3>
+        <div class="exemple">
+          <h3 class="h3">Default</h3>
+          <ul class="ul-list">
+            <li>Lorem ipsum dolor sit amet</li>
+            <li>Interdum adipiscing gravida odio</li>
+            <li>Porttitor sem non integer</li>
+            <li>Non faucibus ornare mi ut ante</li>
+            <li>Sagittis adipiscing eleifend</li>
+            <li>Felis amet dolore viverra</li>
+          </ul>
+          <h2 class="h2">Alternate</h2>
+          <div class="p">
+            <p>Lorem ipsum dolor sit amet</p>
+            <hr />
+            <p>Interdum adipiscing gravida odio</p>
+            <hr />
+            <p>Porttitor sem non integer</p>
+            <hr />
+            <p>Non faucibus ornare mi ut ante</p>
+            <hr />
+            <p>Sagittis adipiscing eleifend</p>
+            <hr />
+            <p>Felis amet dolore viverra</p>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
+      <section class="orderedList">
+        <h3 class="h3">Ordered List</h3>
+        <div class="exemple">
+          <!-- <h1 class="title2">Ordered List</h1> -->
+          <ol class="ol-list" type="1">
+            <li class="li">Lorem ipsum dolor sit amet</li>
+            <li class="li">Interdum adipiscing gravida odio</li>
+            <li class="li">Porttitor sem non integer</li>
+            <li class="li">Non faucibus ornare mi ut ante</li>
+            <li class="li">Sagittis adipiscing eleifend</li>
+            <li class="li">Felis amet dolore viverra</li>
+          </ol>
+        </div>
+      </section>
+      <hr />
+      <section class="blockquote">
+        <h3 class="h3">Blockquote</h3>
+        <div class="exemple">
+          <blockquote class="block-text">
+            <p>
+              Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis
+              volutpat ac adipiscing accumsan eu faucibus. nteger ac pellentesque praesentfringilla quis tincidunt felis
+              sagittis eget tempus euismod. Ante ipsum primis vestibulum.
+            </p>
+          </blockquote>
+        </div>
+      </section>
+
+      <div>
+        <hr class="divisor" />
+      </div>
+
+      <section class="codeList">
+        <h3 class="h3">Code</h3>
+        <div class="exemple">
+          <code>
+            <pre>
+              i = 0;
+
+              while (!deck.isInOrder() ) {
+                print 'Iteration ' + i; 
+                deck.shuffle(); 
+                i++;
+              } 
+
+              print 'It took ' + i + ' iterations to sort the deck.';
+            </pre>
+          </code>
+        </div>
+      </section>
+
       <div class="images-element">
         <h3 class="h3">Images</h3>
         <div class="exemple">
@@ -164,4 +260,5 @@
   </footer>
 </body>
 <script src="./assets/js/app.js"></script>
+
 </html>

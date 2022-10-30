@@ -155,6 +155,65 @@ p {
   color: var(--cyan);
   border-color: var(--cyan);
 }
+
+.spotlight1 {
+  width: 100%;
+  /* background-color: white; */
+  display: flex;
+  align-items: center;
+}
+.spotlight1 div:first-child {
+  width: 35%;
+}
+.spotlight1 div:last-child {
+  width: 65%;
+}
+.spotlight1 div img {
+  width: 100%;
+  height: 100%;
+}
+
+.spotlight1 h1 {
+  font-size: 2em;
+  font-weight: lighter;
+  padding-left: 90px;
+  /* font-weight: 100; */ /* Modificado de 500 a 100 */
+  font-size: 14mm;
+}
+
+.spotlight1 div p {
+  font-weight: lighter;
+  font-size: 1.8rem; /* Modificado de .8em a i.8rem */
+  line-height: 1.8em;
+  margin-top: 0.2em;
+  padding-left: 90px;
+}
+.spotlight1 div p  a{ 
+color: #000; /* Modificado:se añade estilo para quitar el color preseterminado */
+}
+
+.spotlight1 button {
+  margin-top: 1.2em;
+  border: 1px solid rgb(205, 199, 199);/* Modificado de 2px a 1px */
+  border-radius: 2em;
+  padding: 1.1em 2.2em 1.1em 2.2em;
+  font-size: 5mm;
+  text-decoration: underline transparent;
+  margin-left: 82px;
+  background-color: white;
+}
+button:hover {
+  border-color: var(--cyan);
+  color: var(--cyan);
+}
+.spotlight1 code {
+  background-color: rgba(228, 227, 227, 0.937);
+  padding: 0.2em;
+  border-radius: 0.2em;
+}
+.spotlight1 a {
+  text-decoration: underline rgb(87, 87, 92);
+}
 .gallery {
   width: 100%;
   display: flex;
@@ -169,8 +228,8 @@ p {
   text-align: center;
   /*  margin-top: 2em; */
 }
-.gallery .text h1 {
-  font-size: 3em;
+.gallery .text .h1 {
+  font-size: 14mm;
   font-weight: lighter;
   align-self: center;
 }
@@ -180,6 +239,14 @@ p {
   line-height: 1.8em;
   margin: 0.2em 12em 0;
 }
+.gallery code {
+  background-color: rgba(228, 227, 227, 0.937);
+  padding: 0.2em;
+  border-radius: 0.2em;
+}
+.gallery div p  a{ 
+  color: #000; /* Modificado:se añade estilo para quitar el color preseterminado */
+  }
 
 .gallery .carrousel {
   width: 100vw;
@@ -203,6 +270,160 @@ p {
 .zoom:hover {
   transform: scale(1.3);
 }
+
+/* ------------------------------------------ REVISADO HASTA AQUI------------------------------------------------------- */
+/*UNordered list*/
+
+.unorderedList {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 1.8rem;
+}
+
+.title {
+  padding: 2px;
+  margin-left: 280px;
+  margin-top: 3.5rem;
+  font-weight: 500;
+  font-size: 8.8mm;
+}
+/* .content {
+  margin-left: 170px;
+  margin-top: 3.8rem;
+} */
+h3 {
+  margin-bottom: 1.2rem;
+  /* font-weight: 550; */
+  font-size: 6.7mm;
+}
+.ul-list {
+  /* margin-left: 1.5rem; */
+  line-height: 1.8;/* modificado de 1.6 a 1.8 */
+  font-size: x-large;
+}
+.h2 {
+  margin-top: 2em;/* modificado de 2.2rem a 2em */
+  /* margin-bottom: 0.5rem; */
+  /* font-weight: 590; *//* modificado de 590 a 100 */
+  font-size: 7mm;/* modificado de 6.7mm a 7mm */
+}
+.p {
+  line-height: 1.6;
+  font-size: x-large;
+  padding-top: 10px;
+}
+.p p {
+  /* padding-top: 14px; */
+}
+/* .linea {
+  border-bottom: solid 2px rgb(205, 199, 199);
+  width: 287%;
+  padding-top: 15px;
+} */
+
+/*divisor de listas*/
+
+/* .divisor {
+  margin-top: 70px;
+  border-bottom: solid 2px rgb(205, 199, 199);
+  width: 71.8%;
+  margin-left: 14.5%;
+} */
+
+/*Ordered list*/
+
+.orderedList {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 3.2rem;
+}
+.title2 {
+  padding: 2px;
+  margin-left: 280px;
+  margin-top: 1.5rem;
+  font-weight: 550;
+  font-size: 8.9mm;
+}
+.ol-list {
+  /* margin-left: 233px; */
+  line-height: 1.6;
+  font-size: x-large;
+  /* font-weight: normal */;
+  margin-top: 1.2rem;
+}
+.li {
+  padding-left: 7px;
+}
+
+/*Blockquote*/
+
+.blockquote {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 50px 0;  /* Modificado  padding-top: 3.2rem por margin*/
+}
+.block-title {
+  /* padding: 2px; */
+  /* margin-left: 280px; */
+  margin-top: 1.5rem;
+  /* font-weight: 550; */
+  font-size: 8.9mm;
+}
+.block-text {
+  /* margin-left: 210px; */
+  line-height: 1.8;
+  font-size: x-large;
+  /* font-weight: normal; */
+  margin-top: 1.2rem;
+  border-left: solid #cdc7c7;
+  border-width: 6px;
+  padding-left: 42px;
+  font-style: italic;
+  margin: 0;
+}
+
+/*texto Code*/
+
+.codeList {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 3.2rem;
+}
+.title-code {
+  padding: 2px;
+  
+  margin-top: 0.4rem;
+  
+  font-size: 2em;
+}
+  code  {
+  /* width: 100%;
+  height: 100%; */
+  border: hidden;
+  background-color: #efefef;
+  line-height: 1.8; /* Modificado de 1.9 a 1.8 */
+  font-size: x-large;
+  padding: 20px;
+  /* margin-left: 290px; */
+  margin-top: 0.8rem;
+  border-radius: 0.3rem;
+}
+pre{
+  margin: 0;
+}
+
+.divisor3 {
+  margin-top: 70px;
+  border-bottom: solid 2px rgb(205, 199, 199);
+  width: 71.8%;
+  margin-left: 14.5%;
+  margin-bottom: 70px;
+}
+/* IMAGENES */
 .images-element {
   width: 100%;
   display: inline-flex;
@@ -217,7 +438,7 @@ p {
 }
 .images-element .image-left img.left {
   width: 25%;
-  height: 28%;
+  /* height: 28%; */
   float: left;
   margin-right: 2em;
   box-shadow: 2px 2px 5px 0px gray;
@@ -225,7 +446,7 @@ p {
 
 .images-element .image-right img.right {
   width: 25%;
-  height: 25%;
+  /* height: 25%; */
   float: right;
   margin-left: 2em;
   box-shadow: -2px 2px 5px 0px gray;
