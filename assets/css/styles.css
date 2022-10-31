@@ -39,7 +39,6 @@ body {
   font-family: "Lato", sans-serif;
   display: flex;
   align-items: center;
-  /* border: 1px solid var(--black); */
 }
 .spotlight-2 div:first-child {
   width: 100%;
@@ -54,12 +53,10 @@ body {
 .spotlight-2 div img {
   object-fit: cover;
   width: 100%;
-  /* height: auto; */
 }
 .spotlight-2 h1 {
   font-size: 2.5em;
   font-weight: lighter;
-  /* margin-top: 2em; */
   color: #323131;
 }
 .spotlight-2 div p {
@@ -100,7 +97,7 @@ body {
 }
 /*Addtional-Elements*/
 .main {
-  margin: 0 20em;
+  margin: 0 23em;
   display: flex;
   flex-direction: column;
 }
@@ -119,7 +116,7 @@ hr {
 .main .content {
   text-align: center;
 }
-.main .Additional-Elements .content .title {
+.main .Additional-Elements .content .title1 {
   font-family: "Lato", sans-serif;
   font-size: 3rem;
   font-weight: 100;
@@ -146,7 +143,7 @@ hr {
   background-color: rgb(244, 244, 244);
   border-radius: 5px;
   padding: 0.3em;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: "Lato", sans-serif;
   color: rgb(71, 69, 69);
   font-weight: 500;
 }
@@ -156,6 +153,12 @@ hr {
 }
 
 /*Headings*/
+.title {
+  width: 30%;
+}
+.contenedor {
+  width: 75%;
+}
 
 .main .Headings {
   display: flex;
@@ -260,26 +263,29 @@ hr {
 /*Formulario*/
 
 .main .Formulario {
-  display: flex;
-  flex-direction: column;
-  font-size: 1.2rem;
-  line-height: 1.7;
   width: 100%;
-  font-weight: lighter;
-}
-
-
-.main .Formulario .Form {
-  width: 100%;
-  gap: 10em;
+  display: inline-flex;
   margin: 50px 0;
 }
 
-.main .Formulario .form-container {
-  width: 100%;
-  display: inline-flex;
-  justify-content: space-around;
-  align-content:space-around;
-  gap: 9em;
-  /* margin: 10px 0; */
+.main .Formulario .nameEmail,
+.department,
+.priority,
+.sendEmail {
+  display: flex;
+  position: relative;
+  gap: 2em;
+}
+
+.main .Formulario .nameEmail .usuario {
+  width: 50%;
+}
+
+.main .Formulario .nameEmail input {
+  height: 2.5rem;
+  border: 1px solid #cccccc;
+  border-radius: 7px;
+  margin-top: 0.3em;
+  margin-bottom: 1.8em;
+  padding: 0 1em;
 }
