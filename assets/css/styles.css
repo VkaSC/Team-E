@@ -201,6 +201,9 @@ section {
  padding-right: 0.95em;
 
 }
+.Icons .fa-brands:hover {
+border-color: var(--cyan);
+}
 
 
 
