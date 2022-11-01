@@ -130,6 +130,7 @@
               <div class="usuario">
                 <label for="name">Name</label><br /><input
                   type="text"
+                  class="focus"
                   id="name"
                   name="name"
                   placeholder=""
@@ -137,14 +138,16 @@
               </div>
               <div class="usuario">
                 <label for="email">Email</label><br />
-                <input type="text" id="email" name="email" placeholder="" />
+                <input type="email" class="focus" id="email" name="email" placeholder="" />
               </div>
             </div>
             <br />
             <div class="department">
-              <label for="department">Department</label><br />
-              <select name="department" id="department" style="width: 100%">
-                <option value="category">-Category-</option>
+              <label for="department">Department</label><br /><br>
+              <select class="focus" name="department" id="department" style="width: 100%">
+                <option class="category" value="category">-Category-</option>
+                <option value="manufacturing">Manufacturing</option>
+                <option value="shipping">shipping</option>
                 <option value="administration">Administration</option>
                 <option value="human-resources">Human resources</option>
               </select>
@@ -152,7 +155,7 @@
             <br /><br />
             <div class="priority">
               <div class="low">
-                <input type="radio" value="lowPriority" name="priority" />
+                <input type="radio" value="lowPriority" name="priority" checked/>
                 <label for="lowPriority">Low priority</label>
               </div>
               <div class="normal">
@@ -164,19 +167,19 @@
                 <label for="highPriority">High Priority</label>
               </div>
             </div>
-            <label for="message">Message</label><br /><br />
-            <textarea name="message" id="" cols="95" rows="10"></textarea>
+            <label class="message" for="message">Message</label><br /><br />
+            <textarea class="focus" name="message" id="" cols="77" rows="14"></textarea>
             <div class="sendEmail">
               <div class="copy">
                 <input type="checkbox" value="" />
-                <label for=""></label>
+                <label for="">Email me a copy of this message</label>
               </div>
               <div class="robot">
-                <input type="checkbox" value="" />
-                <label for=""></label>
+                <input type="checkbox" value="" checked />
+                <label for="">I am a human and not a robot</label>
               </div>
             </div>
-            <input type="submit" value="SEND MESSAGE" />
+            <input class="submit" type="submit" value="SEND MESSAGE" />
           </form>
         </div>
       </section>
