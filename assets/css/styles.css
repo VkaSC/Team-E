@@ -38,7 +38,7 @@ body {
   grid-template-rows: auto;
   height: auto;
   width: auto;
-  box-sizing: border-box;/* testing */
+  box-sizing: border-box; /* testing */
 }
 
 .main {
@@ -65,7 +65,7 @@ h6 {
 h1 {
   font-size: 2em;
   margin-block-start: 0.67em;
-   margin-block-end: 0.67em;
+  margin-block-end: 0.67em;
 }
 
 p {
@@ -79,7 +79,7 @@ code {
 }
 .h3 {
   width: 30%;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 1.17em;
 }
 .exemple {
@@ -186,7 +186,7 @@ code {
   height: 100%;
 }
 
-.spotlight1 h1 {
+.spotlight1 .h1 {
   font-size: 2em;
   font-weight: lighter;
   padding-left: 90px;
@@ -201,8 +201,8 @@ code {
   margin-top: 0.2em;
   padding-left: 90px;
 }
-.spotlight1 div p  a{ 
-color: #000; /* Modificado:se añade estilo para quitar el color preseterminado */
+.spotlight1 div p a {
+  color: #000; /* Modificado:se añade estilo para quitar el color preseterminado */
 }
 
 .spotlight1 button {
@@ -216,10 +216,11 @@ color: #000; /* Modificado:se añade estilo para quitar el color preseterminado 
   background-color: white; */
 
   border-radius: 2em;
-  padding: 1.5em 4em;
+  padding: 1.5em 3em;
   border: #acabab solid 1px;
   font-size: medium;
   margin-top: 1.5em;
+  margin-left: 90px;
 }
 button:hover {
   border-color: var(--cyan);
@@ -235,7 +236,7 @@ button:hover {
   width: 100%;
   height: auto;
   /* background-color: #f3f4f6; */
-  font-family: "Lato", sans-serif;
+  /* font-family: "Lato", sans-serif; */
   display: flex;
   align-items: center;
 }
@@ -244,8 +245,8 @@ button:hover {
   padding: 0 5%;
 }
 .spotlight-2 div:nth-child(2) {
-  width: 43%;
-  height: 450px;
+  width: 65%;
+  height: 550px;
   display: flex;
   overflow: hidden;
 }
@@ -254,7 +255,7 @@ button:hover {
   width: 100%;
 }
 .spotlight-2 h1 {
-  font-size: 2.5em;
+  font-size: 3.8em;
   font-weight: lighter;
   /* color: #323131; */
 }
@@ -262,7 +263,7 @@ button:hover {
   font-weight: lighter;
   /* font-size: 1.8em; */
   line-height: 1.8em;
-  color: black;
+  /* color: black; */
   margin-top: 0.5em;
   padding-bottom: 1.5em;
 }
@@ -275,14 +276,23 @@ button:hover {
   color: var(--cyan);
 }
 .spotlight-2 a {
-  border: 1px solid #a1a1a1;
+  color: var(--black);
+  /* border: 1px solid #a1a1a1;
   border-radius: 2em;
   padding: 1.3em 3em;
-  color: var(--black);
   text-decoration: underline transparent;
-  font-size: 1.1em;
-  font-weight: bold;
+  font-size: 1.1em; */
+  /* font-weight: bold; */
 }
+.spotlight-2 button {
+  border-radius: 2em;
+  padding: 1.5em 3em;
+  border: #acabab solid 1px;
+  font-size: medium;
+  /* margin-top: 1.5em; */
+  margin-left: 90px;
+}
+
 .spotlight-2 #details {
   padding: 0.2em;
   border: none;
@@ -344,7 +354,7 @@ button:hover {
   background-color: white;
   color: rgb(67, 65, 65); */
   border-radius: 2em;
-  padding: 1.5em 4em;
+  padding: 1.5em 3em;
   border: #acabab solid 1px;
   font-size: medium;
   margin-top: 1.5em;
@@ -358,7 +368,7 @@ button:hover {
   padding: 0.2em;
   border-radius: 0.2rem;
 }
- 
+
 /* ----------------------------------------------- */
 .gallery {
   width: 100%;
@@ -391,15 +401,14 @@ button:hover {
   padding: 0.2em;
   border-radius: 0.2em;
 }
-.gallery div p  a{ 
+.gallery div p a {
   color: #000; /* Modificado:se añade estilo para quitar el color preseterminado */
-  }
+}
 
 .gallery .carrousel {
   width: 100vw;
   display: flex;
   margin: 5em 0;
-  
 }
 .gallery .carrousel .images-fulls {
   display: flex;
@@ -410,7 +419,7 @@ button:hover {
 }
 
 .gallery .carrousel .images-fulls img {
- width: 675px;
+  width: 675px;
   height: 80%;
 }
 
@@ -425,7 +434,6 @@ button:hover {
   /* border: solid 10px black; */
   /* margin-left: 15%; */
   /* margin-right: 10%; */
-  
 }
 
 .Items span {
@@ -449,7 +457,7 @@ button:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 100%;
-  padding: 3em 0; 
+  padding: 3em 0;
 }
 
 .Items div > div {
@@ -498,8 +506,7 @@ button:hover {
 }
 .Items div > div.contendor {
   padding-top: 0em;
-  
-} 
+}
 
 /*Addtional-Elements*/
 .main {
@@ -536,9 +543,9 @@ hr {
 } */
 .main .texto {
   width: 100%;
-    display: flex;
-    /* margin: 50px 0; */
-    flex-direction: row;
+  display: flex;
+  /* margin: 50px 0; */
+  flex-direction: row;
 }
 /* .main .Additional-Elements .texto {
   width: 100%;
@@ -562,9 +569,10 @@ hr {
   font-weight: 500;
 }
 
-.main .Additional-Elements .texto p a {
+/* .main .Additional-Elements .texto a .color {
   color: #000;
-}
+   
+} */
 
 /*Headings*/
 .section-title {
@@ -602,8 +610,8 @@ hr {
 .main .Headings .title .contenedor h1 {
   font-size: 2.5em;
   font-weight: 300;
-  margin-block-start: .5em;
-    margin-block-end: 0;
+  margin-block-start: 0.5em;
+  margin-block-end: 0;
 }
 
 .main .Headings .title .contenedor h2 {
@@ -700,17 +708,17 @@ h3 {
   margin-bottom: 1.2rem;
   /* font-weight: 550; */
   /* font-size: 6.7mm;*/
-} 
+}
 .ul-list {
   /* margin-left: 1.5rem; */
-  line-height: 1.8;/* modificado de 1.6 a 1.8 */
+  line-height: 1.8; /* modificado de 1.6 a 1.8 */
   font-size: x-large;
 }
 .h2 {
-  margin-top: 2em;/* modificado de 2.2rem a 2em */
+  margin-top: 2em; /* modificado de 2.2rem a 2em */
   /* margin-bottom: 0.5rem; */
-  /* font-weight: 590; *//* modificado de 590 a 100 */
-  font-size: 7mm;/* modificado de 6.7mm a 7mm */
+  /* font-weight: 590; */ /* modificado de 590 a 100 */
+  font-size: 7mm; /* modificado de 6.7mm a 7mm */
 }
 /* p {
   line-height: 1.6;
@@ -754,7 +762,7 @@ h3 {
   /* margin-left: 233px; */
   line-height: 1.6;
   font-size: x-large;
-  /* font-weight: normal */;
+  /* font-weight: normal */
   margin-top: 1.2rem;
 }
 .li {
@@ -767,7 +775,7 @@ h3 {
   display: flex;
   flex-direction: row;
   width: 100%;
-  margin: 50px 0;  /* Modificado  padding-top: 3.2rem por margin*/
+  margin: 50px 0; /* Modificado  padding-top: 3.2rem por margin*/
 }
 .block-title {
   /* padding: 2px; */
@@ -802,7 +810,7 @@ h3 {
   margin-top: 0.4rem;
   font-size: 2em;
 }
-  .code  {
+.code {
   /* width: 100%;
   height: 100%; */
   border: hidden;
@@ -814,7 +822,7 @@ h3 {
   margin-top: 0.8rem;
   border-radius: 0.3rem;
 }
-pre{
+pre {
   margin: 0;
 }
 
@@ -830,7 +838,7 @@ pre{
 .Icons {
   width: 100%;
   /* padding-left: 20em; */
-  padding-top: 2.5em;
+  padding-top: 2em;
   display: inline-flex;
 }
 .Icons h2 {
@@ -852,7 +860,8 @@ pre{
 }
 
 .Icons > div {
-  font-weight: lighter;
+  font-size: 0.85em;
+  /* font-weight: lighter; */
   /* padding-left: 10em; */
 }
 .Icons h3 {
@@ -860,9 +869,8 @@ pre{
   padding-bottom: 1.5em;
 }
 
-
 .Icons .fa-brands {
-  border: solid rgb(219, 216, 216) 2px;
+  border: solid rgb(219, 216, 216) 1px;
   border-radius: 100%;
   padding: 0.8em;
   margin-right: 1em;
@@ -870,13 +878,12 @@ pre{
   margin-bottom: 2em;
 }
 
-.Icons #f{
- padding-left: 0.95em;
- padding-right: 0.95em;
-
+.Icons #f {
+  padding-left: 0.95em;
+  padding-right: 0.95em;
 }
 .Icons .fa-brands:hover {
-border-color: var(--cyan);
+  border-color: var(--cyan);
 }
 /* BUTTONS & ACTIONS */
 .buttons {
@@ -938,7 +945,7 @@ border-color: var(--cyan);
 }
 
 .buttons .b1 {
-  margin-top: 10px;
+  margin-top: 30px;
 }
 .buttons .b3 {
   display: flex;
@@ -982,7 +989,7 @@ border-color: var(--cyan);
   border-radius: 2em;
   margin-right: 15px;
 }
-.actions .action-buttons{
+.actions .action-buttons {
   margin-top: 0;
   margin-bottom: 30px;
 }
@@ -1020,7 +1027,7 @@ table {
 }
 .default {
   font-weight: lighter;
-  /* font-size: medium; */
+  font-size: 1.8rem;
   padding-bottom: 1em;
 }
 
@@ -1063,7 +1070,7 @@ tr td:first-child {
   width: 100%;
 }
 .tabla2 td {
-  padding: 0.5em  0.8em;
+  padding: 0.5em 0.8em;
   font-size: 1.8rem;
   border: #b6b5b5 solid 0.5px;
 }
@@ -1091,7 +1098,8 @@ tr td:first-child {
 .sendEmail {
   display: flex;
   position: relative;
-  justify-content:space-between;
+  justify-content: space-between;
+  gap: 1.5em;
 }
 
 .main .Formulario .title {
@@ -1100,13 +1108,17 @@ tr td:first-child {
 }
 
 .main .Formulario .nameEmail input {
-  height: 3.7rem;
+  width: 355px;
+  height: 5rem;
   border: 1px solid #cccccc;
   border-radius: 7px;
   margin-top: 1.6em;
   margin-bottom: 1.8em;
   padding: 0 4.8em;
 }
+/* .main .Formulario input .width{
+  width: 500px;
+} */
 
 .main .Formulario .nameEmail label {
   font-size: 1.5rem;
@@ -1125,21 +1137,21 @@ tr td:first-child {
 }
 
 .main .Formulario .department select {
-  font-size: 1.5rem;
+  /* font-size: 1.5rem;
   height: 3.7rem;
   border: 1px solid #cccccc;
   border-radius: 7px;
   background-color: white;
   padding-right: 3em;
-  margin-top: 0.5em;
+  margin-top: 0.5em; */
+  padding: 15px;
+  font-size: 1.7rem;
+  font-weight: 100;
+  font-family: "Noto Sans JP";
+  line-height: 1.8;
+  border: var(--ligthgrey) 1px solid;
+  border-radius: 5px;
 }
-
-/* .main .Formulario .contendor .department select .focus::-ms-expand {
-  display: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-} */
 
 .main .Formulario .priority .low,
 .normal,
@@ -1156,13 +1168,12 @@ tr td:first-child {
   justify-content: center;
 }
 
-.main .Formulario .priority i{
-  padding-right: .5em;
+.main .Formulario .priority i {
+  padding-right: 0.5em;
   font-size: 1.5em;
 }
 
 /*labels*/
-
 
 .main .Formulario .priority .low label {
   font-size: 1.5rem;
@@ -1183,7 +1194,7 @@ tr td:first-child {
   font-weight: 300;
   color: var(--black);
   padding-left: 0.5em;
-   margin-right: 2em;
+  margin-right: 2em;
 }
 
 .main .Formulario .message {
@@ -1192,6 +1203,7 @@ tr td:first-child {
 }
 
 .main .Formulario textarea {
+  width: 100%;
   border: 1px solid #cccccc;
   border-radius: 7px;
   margin-top: 0.5em;
@@ -1203,37 +1215,66 @@ tr td:first-child {
   padding-bottom: 2em;
   font-size: 1.4rem;
   font-weight: 300;
-  display:flex;
+  display: flex;
 }
 
 .main .Formulario .sendEmail .inline {
-  width: 25px;
-  height: 25px;
+  width: 2.5em;
+  height: 2.5em;
   padding: 1.2em;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
-.main .Formulario .sendEmail .email, .human{
-  margin-right: 3.1em;
+.main .Formulario .sendEmail .email,
+.human {
+  margin-right: 10em;
+  display: flex;
+  align-items: center;
 }
 
-.main .Formulario .sendEmail i{
-  padding-right: .5em;
-  font-size: 1.5em;
+.main .Formulario .sendEmail i {
+  padding-right: 0.5em;
+  font-size: 2.2em;
 }
 
 .main .Formulario .submit {
   margin-top: 1.2em;
   width: 12em;
   height: 4em;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: 300;
   background-color: white;
   border-radius: 3em;
   color: black;
   border: 1px solid #ccc;
+  letter-spacing: .1em;
 }
-
+/* .Formulario .focus {
+  padding: 15px;
+  font-size: 1.8rem;
+  font-weight: 100;
+  font-family: "Noto Sans JP";
+  line-height: 1.8;
+  border: var(--ligthgrey) 1px solid;
+  border-radius: 5px;
+} */
+form {
+  margin: 1.5em 0;
+}
+.form .select-arrow select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* box-shadow: none; */
+}
+.arrow {
+  /* Arrow */
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='LightGray' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 2rem top 50%;
+  background-size: 1.7rem auto;
+}
 .main .Formulario .focus:focus {
   border: var(--cyan) solid 3px;
   outline: none;
@@ -1245,12 +1286,7 @@ tr td:first-child {
   color: var(--cyan);
 }
 
-/* .main .Formulario .department .focus select{
-  display: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-} */
+
 
 /* IMAGENES */
 .images-element {
@@ -1269,7 +1305,7 @@ tr td:first-child {
   width: 25%;
   float: left;
   margin-right: 2em;
-  margin-top: .6em;
+  margin-top: 0.6em;
   box-shadow: 2px 2px 5px 0px gray;
 }
 
@@ -1277,7 +1313,7 @@ tr td:first-child {
   width: 25%;
   float: right;
   margin-left: 2em;
-  margin-top: .8em;
+  margin-top: 0.8em;
   box-shadow: -2px 2px 5px 0px gray;
 }
 
