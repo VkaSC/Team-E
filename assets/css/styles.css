@@ -432,12 +432,12 @@ button:hover {
 
 /* ------------------------------------------ REVISADO HASTA AQUI------------------------------------------------------- */
 /* -------------------ITEMS------------------------------------- */
-.Items {
+/*.Items {
   /* width: 70%;  */
   /* border: solid 10px black; */
   /* margin-left: 15%; */
   /* margin-right: 10%; */
-}
+/*}*/
 
 .Items span {
   background-color: rgb(239, 237, 237);
@@ -728,9 +728,9 @@ h3 {
   font-size: x-large;
   padding-top: 10px;
 } */
-.p p {
-  /* padding-top: 14px; */
-}
+/* .p p {
+  padding-top: 14px;
+} */
 /* .linea {
   border-bottom: solid 2px rgb(205, 199, 199);
   width: 287%;
@@ -1059,9 +1059,9 @@ tr td:nth-child(2) {
 tr:nth-child(even) {
   background-color: #edeaea;
 }
-tr:nth-child(odd) {
-  /* background-color: #ffffff; */
-}
+/* tr:nth-child(odd) {
+  background-color: #ffffff; 
+} */
 tr td:first-child {
   padding-right: 4em;
 }
