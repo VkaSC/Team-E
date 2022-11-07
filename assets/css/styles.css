@@ -77,6 +77,9 @@ code {
   padding: 0.2em;
   border-radius: 0.2em;
 }
+buttons {
+  background-color: transparent;
+}
 .h3 {
   width: 30%;
   font-family: "Source Sans Pro", sans-serif;
@@ -870,7 +873,7 @@ pre {
 }
 
 .Icons .fa-brands {
-  border: solid rgb(219, 216, 216) 1px;
+  border: solid var(--ligthgrey) 1px;
   border-radius: 100%;
   padding: 0.8em;
   margin-right: 1em;
@@ -1057,7 +1060,7 @@ tr:nth-child(even) {
   background-color: #edeaea;
 }
 tr:nth-child(odd) {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
 }
 tr td:first-child {
   padding-right: 4em;
@@ -1286,7 +1289,10 @@ form {
   color: var(--cyan);
 }
 
-
+/* Elemento Checkbox, cuando está marcado */
+input[type="checkbox"]:checked {
+  background-color: #000;
+}
 
 /* IMAGENES */
 .images-element {
