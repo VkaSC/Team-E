@@ -1290,9 +1290,15 @@ form {
 }
 
 /* Elemento Checkbox, cuando está marcado */
-input[type="checkbox"]:checked {
-  background-color: #000;
+.inline {
+  accent-color: black;
+  border-color: transparent ;
 }
+.radio:checked{
+  accent-color: black;
+  border: white ;
+}
+
 
 /* IMAGENES */
 .images-element {
